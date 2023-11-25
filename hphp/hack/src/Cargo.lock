@@ -3493,6 +3493,7 @@ dependencies = [
 [[package]]
 name = "ocamlrep"
 version = "0.1.0"
+source = "git+https://github.com/facebook/ocamlrep/?branch=main#3f484fb230f418e005ac31276eea192447d05196"
 dependencies = [
  "bstr",
  "bumpalo",
@@ -3505,6 +3506,7 @@ dependencies = [
 [[package]]
 name = "ocamlrep_caml_builtins"
 version = "0.1.0"
+source = "git+https://github.com/facebook/ocamlrep/?branch=main#3f484fb230f418e005ac31276eea192447d05196"
 dependencies = [
  "ocamlrep",
  "ocamlrep_custom",
@@ -3514,6 +3516,7 @@ dependencies = [
 [[package]]
 name = "ocamlrep_custom"
 version = "0.1.0"
+source = "git+https://github.com/facebook/ocamlrep/?branch=main#3f484fb230f418e005ac31276eea192447d05196"
 dependencies = [
  "ocamlrep",
  "ocamlrep_ocamlpool",
@@ -3522,6 +3525,7 @@ dependencies = [
 [[package]]
 name = "ocamlrep_derive"
 version = "0.1.0"
+source = "git+https://github.com/facebook/ocamlrep/?branch=main#3f484fb230f418e005ac31276eea192447d05196"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -3532,6 +3536,7 @@ dependencies = [
 [[package]]
 name = "ocamlrep_marshal"
 version = "0.1.0"
+source = "git+https://github.com/facebook/ocamlrep/?branch=main#3f484fb230f418e005ac31276eea192447d05196"
 dependencies = [
  "bitflags 1.3.2",
  "cc",
@@ -3550,6 +3555,7 @@ dependencies = [
 [[package]]
 name = "ocamlrep_ocamlpool"
 version = "0.1.0"
+source = "git+https://github.com/facebook/ocamlrep/?branch=main#3f484fb230f418e005ac31276eea192447d05196"
 dependencies = [
  "bumpalo",
  "cc",
@@ -4093,6 +4099,7 @@ dependencies = [
 name = "quickcheck"
 version = "1.0.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "588f6378e4dd99458b60ec275b4477add41ce4fa9f64dcba6f15adccb19b50d6"
 dependencies = [
  "env_logger 0.8.4",
  "log",
@@ -4909,9 +4916,9 @@ dependencies = [
 
 [[package]]
 name = "spin"
-version = "0.9.4"
+version = "0.9.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7f6002a767bff9e83f8eeecf883ecb8011875a21ae8da43bffb817a57e78cc09"
+checksum = "6980e8d7511241f8acf4aebddbb1ff938df5eebe98691418c4468d0b72a96a67"
 dependencies = [
  "lock_api",
 ]
